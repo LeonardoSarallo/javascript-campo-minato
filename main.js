@@ -37,9 +37,25 @@ for (var i = 0; i < arrayRandomComputer.length; i++)
   {
     checkNumero = true;
   }
-  console.log(arrayRandomComputer[i]);
+
 }
 
-if (checkNumero == true) {
-  document.writeln('hai perso');
+if (checkNumero == true)
+{
+  document.writeln('Hai perso');
+}
+else if (checkNumero == false)
+{
+  prompt('Bravo! Inserisci un altro numero');
+}
+console.log(checkNumero);
+
+for (var i = 0; i <= 84; i++)
+{
+  if (checkNumero == false) {
+    document.writeln('hai perso');
+  }
+  // else {
+  //   prompt('Bravo! Inserisci un altro numero');
+  // }
 }
