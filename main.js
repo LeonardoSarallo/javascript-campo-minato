@@ -14,16 +14,25 @@
 // Con difficoltà 0=> da 1 a 100, con difficoltà 1 => da 1 a 80 con
 // difficoltà 2=> da 1 a 50
 
+
+
+// creo il ciclo per i 16 numeri random del computer
+
+var arrayRandomComputer = [];
+
+console.log(numeroRandomComputer);
 for (var i = 1; i <= 16; i++)
 {
   var numeroRandomComputer = Math.floor(Math.random()* 100 + 1);
   console.log(numeroRandomComputer);
-}
-var numeroUtente = 1;
+  arrayRandomComputer.push(numeroRandomComputer);
+  console.log(arrayRandomComputer);
 
-if (numeroUtente = numeroRandomComputer) {
-  document.writeln('hai perso!');
 }
-else {
-  document.writeln('inserisci un altro numero')
-}
+
+// if (numeroUtente = numeroRandomComputer) {
+//   document.writeln('hai perso!');
+// }
+// else {
+//   document.writeln('inserisci un altro numero')
+// }
