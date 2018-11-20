@@ -28,21 +28,19 @@ for (var i = 1; i <= 16; i++)
   var numeroRandomComputer = Math.floor(Math.random()* 100 + 1);
   console.log(numeroRandomComputer);
   arrayRandomComputer.push(numeroRandomComputer);
+
+
+}
+
+for (var i = 0; i < arrayRandomComputer.length; i++)
+{
   if (numeroUtente = arrayRandomComputer[i])
   {
     checkNumero = true;
   }
-
+  console.log(arrayRandomComputer[i]);
 }
+
 if (checkNumero == true) {
-  document.writeln('hai perso')
+  document.writeln('hai perso');
 }
-console.log(arrayRandomComputer);
-
-
-// if (numeroUtente = numeroRandomComputer) {
-//   document.writeln('hai perso!');
-// }
-// else {
-//   document.writeln('inserisci un altro numero')
-// }
