@@ -50,12 +50,31 @@ else if (checkNumero == false)
 }
 console.log(checkNumero);
 
-for (var i = 0; i <= 84; i++)
+
+var contatore = 0;
+while (contatore <= 84)
 {
-  if (checkNumero == false) {
-    document.writeln('hai perso');
+  if (checkNumero == true)
+  {
+    document.writeln('Hai perso');
   }
-  // else {
-  //   prompt('Bravo! Inserisci un altro numero');
-  // }
+  else if (checkNumero == false)
+  {
+    prompt('Bravo! Inserisci un altro numero');
+  }
+  console.log(checkNumero);
+  contatore++
 }
+
+
+
+//
+// for (var i = 0; i <= 84; i++)
+// {
+//   if (checkNumero == false) {
+//     document.writeln('hai perso');
+//   }
+//   // else {
+//   //   prompt('Bravo! Inserisci un altro numero');
+//   // }
+// }
