@@ -39,16 +39,16 @@ for (var i = 0; i < arrayRandomComputer.length; i++)
   }
 
 }
-
-if (checkNumero == true)
-{
-  document.writeln('Hai perso');
-}
-else if (checkNumero == false)
-{
-  prompt('Bravo! Inserisci un altro numero');
-}
-console.log(checkNumero);
+//
+// if (checkNumero == true)
+// {
+//   document.writeln('Hai perso');
+// }
+// else if (checkNumero == false)
+// {
+//   prompt('Bravo! Inserisci un altro numero');
+// }
+// console.log(checkNumero);
 
 
 var contatore = 0;
@@ -62,7 +62,7 @@ while (contatore <= 84)
   {
     prompt('Bravo! Inserisci un altro numero');
   }
-  console.log(checkNumero);
+
   contatore++
 }
 
