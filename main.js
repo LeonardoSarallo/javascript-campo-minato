@@ -19,16 +19,26 @@
 // creo il ciclo per i 16 numeri random del computer
 
 var arrayRandomComputer = [];
+var numeroUtente = 1;
+var checkNumero = false;
 
-console.log(numeroRandomComputer);
+
 for (var i = 1; i <= 16; i++)
 {
   var numeroRandomComputer = Math.floor(Math.random()* 100 + 1);
   console.log(numeroRandomComputer);
   arrayRandomComputer.push(numeroRandomComputer);
-  console.log(arrayRandomComputer);
+  if (numeroUtente = arrayRandomComputer[i])
+  {
+    checkNumero = true;
+  }
 
 }
+if (checkNumero == true) {
+  document.writeln('hai perso')
+}
+console.log(arrayRandomComputer);
+
 
 // if (numeroUtente = numeroRandomComputer) {
 //   document.writeln('hai perso!');
