@@ -29,12 +29,11 @@ for (var i = 1; i <= 16; i++)
   console.log(numeroRandomComputer);
   arrayRandomComputer.push(numeroRandomComputer);
 
-
 }
 
 for (var i = 0; i < arrayRandomComputer.length; i++)
 {
-  if (numeroUtente = arrayRandomComputer[i])
+  if (numeroUtente == arrayRandomComputer[i])
   {
     checkNumero = true;
   }
